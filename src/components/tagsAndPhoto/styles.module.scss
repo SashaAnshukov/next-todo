@@ -1,0 +1,36 @@
+.tagsAndPhotoSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .tagSection {
+    display: flex;
+    height: min-content;
+    .tagCompany {
+      padding: 1px 6px 2px 6px;
+      margin-right: 4px;
+      background: #b233a6;
+      border-radius: 4px;
+      color: #fff;
+      font-family: Segoe UI;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 16.8px;
+    }
+    .tagProfession {
+      padding: 1px 1px 2px 6px;
+      background: #ebeef6;
+      border-radius: 4px 0 0 4px;
+      color: #616c82;
+      font-family: Segoe UI;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 16.8px;
+    }
+    .tagProfession_rect {
+      position: relative;
+      left: -1px;
+    }
+  }
+}

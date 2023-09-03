@@ -1,0 +1,38 @@
+.titleSection {
+  display: flex;
+  margin: 0 0 8px 0;
+  .checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(0 0 0 0);
+  }
+  .customCheckbox {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: #ffff;
+    border: 1px solid #aab7d4;
+    border-radius: 2px;
+  }
+  .checkbox:checked + .customCheckbox {
+    background: green;
+  }
+  .title {
+    margin: 0 0 0 8px;
+    overflow: hidden;
+    color: #3d8fec;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18.2px !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}

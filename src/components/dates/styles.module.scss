@@ -1,0 +1,13 @@
+.dateSection {
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .date {
+    color: #50b810;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18.2px;
+  }
+}
